@@ -11,7 +11,7 @@ int main(){
   double num1;
   double num2;
   double answer;
-  std::cout << "1. Add\n2. Subtract\n3. Multiply\n4. Divide\nSelect an option: ";
+  std::cout << "1. Add\n 2. Subtract\n 3. Multiply\n Select an option: ";
   std::cin >> userChoice;
 
   std::cout << "Please enter the first number: ";
@@ -43,6 +43,17 @@ int main(){
   return 0;
 }
 
+double add(double num1, double num2){
+    return (num1 + num2);
+}
+
+double subtract(double num1, double num2){
+    return (num1 - num2);
+}
+
+double multiply(double num1, double num2){
+    return (num1 * num2);
+}
 
 //---------------------------Your code here---------------------------------
 /*
